@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="formulario">
+        
+    <form id="miFormulario">
+       <div class="contenedor"> 
+        <label>Número 1</label>
+        <input class="seleccionador" type="number" id="valor1">
+       </div> 
+
+       <div class="contenedor">
+       <label>Número 2</label>
+        <input class="seleccionador" type="number" id="valor2">
+       </div> 
+
+       <br>
+
+       <div class="botones">
+        <button class="operadores" type="button" onclick="sumar()">Suma</button>
+        <button class="operadores" type="button" onclick="resta()">Resta</button>
+        <button class="operadores" type="button" onclick="multiplicacion()">Multiplicacion</button>
+        <button class="operadores" type="button" onclick="dividir()">Dividir</button>
+       </div>
+
+       <div class="teclas">
+        <button class="tecla-1">Resultado: <span id="el-resultado"></span></button>
+        <button class="tecla-2" onclick="limpiar();">Limpiar</button>
+       </div>
+    </form>
+   </section>
+    <script src="calculadora.js"></script>
+</body>
+</html>
