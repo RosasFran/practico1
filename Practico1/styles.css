@@ -1,0 +1,77 @@
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:  lightgrey;
+    font: 1,2rem;
+    line-height: 1,3rem;
+    margin: 0;
+}
+
+.formulario{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    background-color: gray;
+    width: 20rem;
+    height: 14rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+}
+
+.contenedor{
+    text-align: center;
+    color: black;
+    margin: 1rem auto;
+}
+
+.seleccionador{
+    padding: 5px;
+    background-color: lightgrey;
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .2rem;
+    margin: .5rem;
+}
+
+.operadores{
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+    border-radius: 10rem;
+    text-decoration: none;
+}
+
+.operadores:hover{
+    background-color: cadetblue;
+}
+
+.teclas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.tecla-1{
+    font-weight: bold;
+    display: block;
+    background-color: green;
+    border-radius: 10rem;
+    padding: .5rem;
+    width: 6rem;
+    margin-left: 4rem;
+}
+
+.tecla-2{
+    font-weight: bold;
+    display: block;
+    background-color: red;
+    border-radius: 10rem;
+    padding: .5rem;
+    width: 6rem;
+}
